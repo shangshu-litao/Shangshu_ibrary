@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NoticeView">
+        <attr name="noticeTextSize" format="dimension"/>
+        <attr name="noticeTextColor" format="color|reference"/>
+    </declare-styleable>
+    <declare-styleable name="StarView">
+        <attr name="mImageWidth" format="dimension"/>
+        <attr name="mImageHeight" format="dimension" />
+        <attr name="mDefaultImageId" format="reference" />
+        <attr name="mClickImageId" format="reference" />
+        <attr name="mMargin" format="dimension" />
+        <attr name="mStarNum" format="integer" />
+        <attr name="mStarChoose" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AutoNewLineLayout">
+        <attr name="horizontalSpace" format="dimension|reference"/>
+
+        <attr name="vertivalSpace" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="PreviewBorderView">
+        <attr name="tipText" format="string" />
+        <attr name="tipTextColor" format="color|reference" />
+        <attr name="tipTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
